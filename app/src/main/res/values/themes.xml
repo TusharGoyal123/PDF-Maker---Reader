@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ImgToPDF" parent="Theme.Material3.DayNight.NoActionBar">
+<item name="statusBarBackground">#D52572</item>
+        <item name="android:statusBarColor">#D52572</item>
+<!--        <item name="android:windowFullscreen">true</item>-->
+
+
+    </style>
+
+    <style name="Theme.ImgToPDF" parent="Base.Theme.ImgToPDF" />
+
+    <style name="custom_toolbar_style" >
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
+    </style>
+    
+
+</resources>
