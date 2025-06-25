@@ -112,19 +112,7 @@ class PDFPreviewActivity : AppCompatActivity() {
         binding=ActivityPdfpreviewBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//        var adRequest = AdRequest.Builder().build()
-//        RewardedAd.load(this,"ca-app-pub-6415104373406340/4585697948", adRequest, object : RewardedAdLoadCallback() {
-//            override fun onAdFailedToLoad(adError: LoadAdError) {
-////                adError?.toString()?.let { Log.d(TAG, it) }
-//                mRewardedAd = null
-//            }
-//
-//            override fun onAdLoaded(ad: RewardedAd) {
-//                Log.d(TAG, "Ad was loaded.")
-//                mRewardedAd = ad
-//            }
-//        })
-//loadRewardedAd()
+
         ViewCompat.setOnApplyWindowInsetsListener(binding.root) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
