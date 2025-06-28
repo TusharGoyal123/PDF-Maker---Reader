@@ -32,7 +32,7 @@ import java.io.File
 class MainActivity : AppCompatActivity(), IUnityAdsInitializationListener {
 
 
-    private val GAME_ID = "5876624" // Replace with your actual Game ID
+    private val GAME_ID = "XXXXXXX" // Replace with your actual Game ID
     private val TEST_MODE = false // Set to false for production
 
     private lateinit var pdfList:ArrayList<pdfModel>
